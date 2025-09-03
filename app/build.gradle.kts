@@ -1,19 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
-    alias(libs.plugins.hilt)
-    alias(libs.plugins.google.services)
 }
 
 android {
     namespace = "com.example.colorseeker"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.example.colorseeker"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -43,7 +40,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.3.2"
     }
     packagingOptions {
         resources {
@@ -67,28 +64,6 @@ dependencies {
     
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.compose)
-    
-    // Dependency Injection
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.compiler)
-    implementation(libs.hilt.navigation.compose)
-    
-    // Network
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.gson)
-    implementation(libs.gson)
-    
-    // Image Loading
-    implementation(libs.coil.compose)
-    
-    // Firebase
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.firestore)
-    implementation(libs.firebase.auth)
-    implementation(libs.firebase.storage)
-    
-    // Coroutines
-    implementation(libs.kotlinx.coroutines.android)
     
     // Testing
     testImplementation(libs.junit)
