@@ -1,3 +1,97 @@
 <resources>
-    <string name="app_name">ColorSeeker</string>
+    <string name="app_name">Color Seeker</string>
+    
+    <!-- Main Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_puzzles">Puzzles</string>
+    <string name="nav_leaderboards">Leaderboards</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Color Seeker</string>
+    <string name="daily_challenge">Daily Challenge</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="continue_playing">Continue Playing</string>
+    <string name="seek_balance">SEEK Balance</string>
+    <string name="day_streak">Day Streak</string>
+    <string name="puzzles_completed">Puzzles Completed</string>
+    
+    <!-- Puzzle Screen -->
+    <string name="puzzle_completed">Puzzle Completed!</string>
+    <string name="congratulations">Congratulations! You\'ve completed the puzzle.</string>
+    <string name="seek_earned">Earned %d SEEK tokens</string>
+    <string name="mint_nft">Mint NFT (%s SOL)</string>
+    <string name="hint_cost">Hint (%d SEEK)</string>
+    <string name="share_progress">Share Progress</string>
+    <string name="color_palette">Color Palette</string>
+    <string name="completion_percentage">%d%% Complete</string>
+    
+    <!-- Puzzle Library -->
+    <string name="puzzle_library">Puzzle Library</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="unlock_puzzle">Unlock</string>
+    <string name="puzzle_locked">Puzzle Locked</string>
+    <string name="difficulty_stars">Difficulty: %d/5</string>
+    
+    <!-- Leaderboards -->
+    <string name="leaderboards">Leaderboards</string>
+    <string name="seek_holders">SEEK Holders</string>
+    <string name="puzzle_masters">Puzzle Masters</string>
+    <string name="your_rank">Your Rank</string>
+    <string name="rank_number">#%d</string>
+    <string name="keep_climbing">Keep climbing!</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="wallet_balances">Wallet Balances</string>
+    <string name="statistics">Statistics</string>
+    <string name="referral_program">Referral Program</string>
+    <string name="your_referral_code">Your Referral Code</string>
+    <string name="referral_description">Earn 10 SEEK for each friend who joins!</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="view_all">View All</string>
+    <string name="nft_gallery">View NFT Gallery</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="export_data">Export Data</string>
+    
+    <!-- Rarity Types -->
+    <string name="rarity_common">Common</string>
+    <string name="rarity_rare">Rare</string>
+    <string name="rarity_epic">Epic</string>
+    <string name="rarity_legendary">Legendary</string>
+    
+    <!-- Currency -->
+    <string name="currency_seek">SEEK</string>
+    <string name="currency_sol">SOL</string>
+    <string name="currency_usdc">USDC</string>
+    
+    <!-- Actions -->
+    <string name="action_share">Share</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_start">Start</string>
+    <string name="action_play">Play</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_back">Back</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Achievements -->
+    <string name="achievement_first_steps">First Steps</string>
+    <string name="achievement_streak_master">Streak Master</string>
+    <string name="achievement_puzzle_pro">Puzzle Pro</string>
+    <string name="achievement_nft_collector">NFT Collector</string>
+    <string name="achievement_color_expert">Color Expert</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_insufficient_funds">Insufficient funds for this action.</string>
+    <string name="error_puzzle_locked">This puzzle is locked. Unlock it first.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    
+    <!-- Loading -->
+    <string name="loading">Loading...</string>
+    <string name="processing_payment">Processing payment...</string>
+    <string name="minting_nft">Minting NFT...</string>
+    <string name="uploading_image">Uploading image...</string>
 </resources>
