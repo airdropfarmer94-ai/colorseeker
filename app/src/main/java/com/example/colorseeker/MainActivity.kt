@@ -16,7 +16,10 @@ import com.example.colorseeker.ui.theme.ColorSeekerTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        import androidx.core.view.WindowCompat
+
+// ... în onCreate
+WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
             ColorSeekerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->

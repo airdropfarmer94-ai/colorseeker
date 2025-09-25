@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "801826146685",
+    "project_id": "color-seeker-65d81",
+    "storage_bucket": "color-seeker-65d81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801826146685:android:1df6b3bde32a530f70e414",
+        "android_client_info": {
+          "package_name": "com.colorseeker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2fenHj3j4uXa0m6GK9OdUi1ujLiwEJl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801826146685:android:35972266d0dbf0b170e414",
+        "android_client_info": {
+          "package_name": "com.example.colorseeker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2fenHj3j4uXa0m6GK9OdUi1ujLiwEJl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
